@@ -2,10 +2,26 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
 body {
   font-family: Arial;
   font-size: 14px;
   overflow-x: hidden;
+  background:
+     url(assets/philadelphia-skyline-night-1.jpg)    /* image */
+     top left / 100% 100% /* position / size */
+     no-repeat                /* repeat */
+     fixed                    /* attachment */
+     padding-box              /* origin */
+     content-box              /* clip */
+     #212121;
 }
 body > div > span,
 body > div > h1 {
@@ -49,7 +65,7 @@ button {
   transition: transform ease 250ms;
 }
 .menu > div.left {
-  background: #212121; //#273D7A;
+  background: #FFFFFF; //#273D7A;
   left: -250px;
 }
 .menu > div.visible.left {
@@ -84,3 +100,11 @@ button {
 .menu > div > .menu-item:hover {
   color: #F0F0F0;
 }
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 }
