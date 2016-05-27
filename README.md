@@ -1,7 +1,6 @@
-# reactjs_flux_es6
-Reactjs + flux + es6 starter kit
+# reactjs_sidemenu
 
-Use this as a starting point for reactjs with flux and es6 projects.
+Simple starter project for webpage with sliding sidemenu.
 
 ---
 
@@ -10,8 +9,13 @@ Use this as a starting point for reactjs with flux and es6 projects.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:robjsliwa/reactjs_flux_es6.git
-	> cd reactjs_flux_es6.git
+	> git clone git@github.com:robjsliwa/reactjs_sidemenu.git
+	> cd reactjs_sidemenu
 	> npm install
 	> gulp
+```
+
+If you do not have gupl installed:
+```
+npm install -g gulp
 ```
